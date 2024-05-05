@@ -11,3 +11,9 @@ First we run the server by doing `cargo run --bin server` and make 3 client by d
 Notice that everything works fine. This is because I changed every port on client and server to be `8080`. But, an important thing to note is that if I try to change one of the port to be different than what it's trying to listen or send, it will cause error. Look at the screenshot below:
 
 ![alt text](ss3.png)
+
+### 2.3. Small changes. Add some information to client
+
+![alt text](ss4.png)
+
+Other clients can now know the port of the sender.
